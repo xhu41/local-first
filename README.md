@@ -38,6 +38,7 @@ mean(df1$temperature)
 mean(df1$city_ID)
 mean(df1$weekday)
 
+<<<<<<< HEAD
 # 2. Median 
 # Find the median for the vector y1.
 y1<-c(12,7,3,4.2,18,2,54,-21,8,-5)
@@ -48,3 +49,13 @@ median(y1)
 median(df1$temperature) 
 # [1] 93.5
 
+=======
+# 3. Standard Deviation (sd)
+# Find the sd for the vector x
+sd(x)
+# [1] 2.12
+
+# Find the sd for df1's temperature variable.
+sd(df1$temperature)
+# [1] 6.08
+>>>>>>> a4c88a3070b23230d4c9a2a6f8db37bb988e6110
