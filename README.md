@@ -21,3 +21,5 @@ mean(y, trim = 0.3)
 x1 <- c(12,7,3,4.2,18,NA,54,-21,8,-5,NA)
 # we want to have the mean by excluding NAs:
 mean(x1, na.rm = TRUE)  # na.rm(): whether or not to remove NA
+
+#another example
