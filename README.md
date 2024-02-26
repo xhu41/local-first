@@ -62,5 +62,3 @@ sd(df1$temperature)
 # There is no built-in function to calculate the mode in R. 
 # To calculate mode in R, you have to create the user-defined function that returns the 
 # mode using mathematical computation. 
-
-
