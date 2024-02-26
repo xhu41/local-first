@@ -56,4 +56,8 @@ sd(x)
 # Find the sd for df1's temperature variable.
 sd(df1$temperature)
 # [1] 6.08
+<<<<<<< HEAD
 #this is a test
+=======
+#let's try one more time
+>>>>>>> 522253615a20bace0cd42734e7baa24694203081
