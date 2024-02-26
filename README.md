@@ -21,3 +21,19 @@ mean(y, trim = 0.3)
 x1 <- c(12,7,3,4.2,18,NA,54,-21,8,-5,NA)
 # we want to have the mean by excluding NAs:
 mean(x1, na.rm = TRUE)  # na.rm(): whether or not to remove NA
+
+# Find the mean for the temperature column using the cityweather.csv
+# read the data into R
+getwd()
+library(readr)
+df1 <- read_csv("/Users/xiaoyanhu/Downloads/AP PPOL105 Spring 2023/week10/cityweather.csv") 
+# Now we work on df1, which is a duplicate of cityweather.csv
+# Names of columns
+names(df1)   
+# [1] "city_ID" "weekday" "temperature"  
+# Find the mean of the column temperature for the entire dataset
+mean(df1$temperature)  
+# [1] 90.35714
+# Can you find the mean for column of city_ID and weekday?
+mean(df1$city_ID)
+mean(df1$weekday)
