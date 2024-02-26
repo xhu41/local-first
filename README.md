@@ -38,3 +38,11 @@ mean(df1$temperature)
 mean(df1$city_ID)
 mean(df1$weekday)
 
+# 3. Standard Deviation (sd)
+# Find the sd for the vector x
+sd(x)
+# [1] 2.12
+
+# Find the sd for df1's temperature variable.
+sd(df1$temperature)
+# [1] 6.08
