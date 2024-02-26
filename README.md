@@ -56,3 +56,4 @@ sd(x)
 # Find the sd for df1's temperature variable.
 sd(df1$temperature)
 # [1] 6.08
+#let's try one more time
